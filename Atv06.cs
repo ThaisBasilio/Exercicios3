@@ -1,5 +1,6 @@
 using System;
-  class AtvAula
+
+  class Atv06
     { 
         static void Main()
         {
