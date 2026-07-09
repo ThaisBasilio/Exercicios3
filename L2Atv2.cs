@@ -4,7 +4,7 @@ class L2Atv2
 {
     static void Main()
     {
-       int[,] matriz = new int[3, 3];
+       int[,] matriz = new int[15, 15];
        Console.WriteLine("'Digite os valores da matriz: ");
 
        for(int i = 0; i < matriz.GetLength(0); i++)
