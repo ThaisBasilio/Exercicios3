@@ -28,8 +28,13 @@ class L2Atv3
             {
              for(int y = 0; y < matriz.GetLength(1); y++)
              {
-                if (x == i && y == j) {break;}
-                if (matriz[x, y] == matriz[i, j]) {jaMostrado = true;}
+                if ((x < i) || (x == i && y < j))
+                {
+                  if (matriz[x, y] == matriz[i, j])
+                    {
+                      jaMostrado = true;
+                    }
+                }
              }
              if (jaMostrado) {break;}
             }
